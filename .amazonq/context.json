@@ -1,0 +1,35 @@
+{
+  "projectGoal": "To prepare for and pass the AWS Certified Cloud Practitioner (CLF-C02) exam.",
+  "userRole": "Cloud engineering student and developer.",
+  "examCode": "CLF-C02",
+  "keyTopics": [
+    "IAM",
+    "VPC", 
+    "EC2",
+    "S3",
+    "RDS",
+    "Lambda",
+    "CloudWatch",
+    "CloudFormation",
+    "AWS Well-Architected Framework",
+    "AWS Shared Responsibility Model",
+    "AWS Pricing Calculator",
+    "AWS Support Plans",
+    "AWS Global Infrastructure",
+    "Auto Scaling",
+    "Elastic Load Balancing",
+    "CloudFront",
+    "Route 53",
+    "AWS Organizations",
+    "AWS Cost Explorer",
+    "AWS Trusted Advisor"
+  ],
+  "projectStructure": "Repository organized by exam domains: 01-cloud-concepts/, 02-security-and-compliance/, 03-technology-and-services/, 04-billing-and-support/, and labs/ for hands-on practice.",
+  "studyApproach": "Focus on foundational AWS concepts, hands-on labs, and exam-specific scenarios. Emphasize practical understanding over deep technical implementation.",
+  "examWeight": {
+    "cloudConcepts": "26%",
+    "securityCompliance": "25%", 
+    "technologyServices": "33%",
+    "billingSupport": "16%"
+  }
+}
