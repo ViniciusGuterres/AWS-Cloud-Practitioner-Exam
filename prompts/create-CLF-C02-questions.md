@@ -12,3 +12,6 @@ Your task is to create a set of **5 practice questions** specifically focused on
 2.  **Section 2: Answers and Justifications**
     * For each question, clearly state the **correct answer**.
     * Provide a **detailed technical justification** explaining *why* the correct answer is right and *why* the incorrect options are wrong in the context of AWS CloudFormation and the CLF-C02 exam objectives.
+
+
+Obs.: Put the output file into the folder labs/exercises
