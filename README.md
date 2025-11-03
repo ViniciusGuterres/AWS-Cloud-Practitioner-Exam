@@ -48,3 +48,7 @@ Track your progress through the four main exam domains:
 4. Update progress checkboxes as you master each domain
 
 Good luck with your AWS Cloud Practitioner certification journey! 🚀
+
+## Interesting links
+
+* https://awspracticenow.s3.us-east-1.amazonaws.com/index3.html 
