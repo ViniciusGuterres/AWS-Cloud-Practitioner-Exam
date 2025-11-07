@@ -1,4 +1,4 @@
-Act as a **Senior AWS Cloud Architecture Professional** preparing a candidate for the **AWS Certified Cloud Practitioner (CLF-C02) exam**.
+Act as a **Specialist AWS Cloud Architecture Professional** preparing a candidate for the **AWS Certified Cloud Practitioner (CLF-C02) exam**.
 
 Your task is to create a set of **10 practice questions** specifically focused on **AWS SERVICE HERE**. These questions must:
 
@@ -9,6 +9,7 @@ Your task is to create a set of **10 practice questions** specifically focused o
 
 1.  **Section 1: CLF-C02 Practice Questions (10 questions)**
     * Present each question with its multiple-choice options (A, B, C, D).
+    * You can add question with more than one option correct (e.g Select two options)
 2.  **Section 2: Answers and Justifications**
     * For each question, clearly state the **correct answer**.
     * Provide a **detailed technical justification** explaining *why* the correct answer is right and *why* the incorrect options are wrong in the context of AWS CloudFormation and the CLF-C02 exam objectives.
