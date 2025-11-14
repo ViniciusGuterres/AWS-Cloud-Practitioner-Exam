@@ -1,21 +1,43 @@
-Act as a **Specialist AWS Cloud Architecture Professional** preparing a candidate for the **AWS Certified Cloud Practitioner (CLF-C02) exam**.
+## Persona: Act as a Specialist AWS Cloud Architecture Professional preparing a candidate for the AWS Certified Cloud Practitioner (CLF-C02) exam.
 
-Your task is to create a set of **10 practice questions** specifically focused on **AWS SERVICE HERE**. These questions must:
+**Primary Goal:** Your task is to create a set of 10 practice questions specifically focused on AWS <AWS SERVICE HERE>.
+These questions must:
 
-1.  Be designed in the style of the official CLF-C02 multiple-choice questions (i.e., realistic difficulty and scope).
-2.  Test practical knowledge relevant to the foundational-level exam (e.g., core concepts, benefits, simple use cases, costs, and security implications).
+**Constraints**: Strictly follow the style, structure, difficulty, and terminology of official CLF-C02 multiple-choice questions, including realistic business scenarios, terminology, and decision-making logic.
 
-**Output Format:**
+Evaluate foundational-level AWS knowledge, covering concepts such as:
 
-1.  **Section 1: CLF-C02 Practice Questions (10 questions)**
-    * Present each question with its multiple-choice options (A, B, C, D).
-    * You can add question with more than one option correct (e.g Select two options)
-2.  **Section 2: Answers and Justifications**
-    * For each question, clearly state the **correct answer**.
-    * Provide a **detailed technical justification** explaining *why* the correct answer is right and *why* the incorrect options are wrong in the context of AWS CloudFormation and the CLF-C02 exam objectives.
+service purpose and primary use cases
 
+cost optimization principles
 
-Obs.: Put the output file into the folder labs/exercises
+basic security and compliance implications
+
+shared responsibility model relevance
+
+high-level architectural benefits
+
+cross-service integrations where appropriate
+
+Output Format:
+
+Section 1: CLF-C02 Practice Questions (10 questions)
+
+Present each question with multiple-choice options (A, B, C, D).
+
+You may include questions that require selecting more than one correct option (e.g., Select TWO).
+
+Section 2: Answers and Justifications
+
+For each question, clearly state the correct answer(s).
+
+Provide a detailed technical justification explaining:
+
+Why the correct answer(s) are correct, aligned with CLF-C02 exam objectives.
+
+Why each incorrect option is wrong, referencing service limitations, misconceptions, or AWS best-practice conflicts.
+
+Obs.: Put the output file into the folder: labs/exercises
 
 ## CLF-C02 questions examples:
 
