@@ -16,7 +16,7 @@ Organize the file with the following markdown headings and content, ensuring all
 
 | Heading | CLF-C02 Specific Content Focus |
 | :--- | :--- |
-| `## Service Overview: <AWS SERVICE HERE>` | A simple, single-sentence definition of the service's purpose. |
+| `## Service Overview:` A simple, single-sentence definition of the service's purpose. |
 | `### 💡 Foundational Concepts` | Explain the service in non-technical terms. What problem does it solve? What is its core value proposition for a business? |
 | `### 🌐 Key Benefits & Value Proposition` | List 3-5 high-level benefits (e.g., cost savings, agility, scalability, global reach). **Crucially**, relate these to the **Six Advantages of Cloud Computing** where possible. |
 | `### 🔒 Security and Compliance (CLF-C02 Focus)` | Detail the service's role within the **AWS Shared Responsibility Model**. Specify what the **Customer** is responsible for and what **AWS** manages for this specific service. |
