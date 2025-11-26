@@ -24,6 +24,8 @@ Organize the file with the following markdown headings and content, ensuring all
 | `### 🎯 Common Use Cases (Scenario-Based)` | List 3-4 simple, business-oriented scenarios/problems where this service is the primary solution. (Example: Storing static website content = S3). |
 | `### 🔗 Related Core Services` | Mention 2-3 other fundamental AWS services (like IAM, VPC, CloudWatch) that frequently interact with the focus service and briefly explain the relationship. |
 
+**Add the Official AWS documentation at the end of the file**
+
 ---
 
 **Final Output:** Deliver the complete, single `.md` file with all content filled in.
