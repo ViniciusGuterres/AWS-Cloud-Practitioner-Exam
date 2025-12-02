@@ -8,6 +8,8 @@
 * **Maintain a High-Level View:** Concentrate on **"what"** the service is, **"why"** a customer would use it (benefits/value proposition), and **"how"** it fits into common, simple use cases, not deep technical **"how-to"** or implementation details.
 * **Emphasize CLF-C02 Context:** Clearly explain the service's role regarding **Security, Billing/Pricing, and High Availability/Scalability** (the key concepts of the exam).
 
+**Simple Analogy:**: Add a simple analogy for the service. e.g AWS Macie: Think of Macie as a security guard with a trained detection dog that continuously patrols your data warehouse (S3), sniffing out sensitive documents (PII, financial data) and alerting you if they're left in unsecured areas or if someone suspicious is trying to access them.
+
 **Constraint (Handle This First):**
 The user wants the structure of this file to match other files in their `03-technology-and-services` folder.
 
