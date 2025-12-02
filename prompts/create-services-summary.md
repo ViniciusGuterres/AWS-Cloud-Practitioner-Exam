@@ -17,12 +17,12 @@ Organize the file with the following markdown headings and content, ensuring all
 | Heading | CLF-C02 Specific Content Focus |
 | :--- | :--- |
 | `## Service Overview:` A simple, single-sentence definition of the service's purpose. |
-| `### 💡 Foundational Concepts` | Explain the service in non-technical terms. What problem does it solve? What is its core value proposition for a business? |
-| `### 🌐 Key Benefits & Value Proposition` | List 3-5 high-level benefits (e.g., cost savings, agility, scalability, global reach). **Crucially**, relate these to the **Six Advantages of Cloud Computing** where possible. |
-| `### 🔒 Security and Compliance (CLF-C02 Focus)` | Detail the service's role within the **AWS Shared Responsibility Model**. Specify what the **Customer** is responsible for and what **AWS** manages for this specific service. |
-| `### 💰 Billing, Pricing, and Support` | Explain the service's primary pricing model (e.g., pay-as-you-go, Reserved Instances, tiered storage). Mention any associated support models (e.g., AWS Support Plans if relevant). |
-| `### 🎯 Common Use Cases (Scenario-Based)` | List 3-4 simple, business-oriented scenarios/problems where this service is the primary solution. (Example: Storing static website content = S3). |
-| `### 🔗 Related Core Services` | Mention 2-3 other fundamental AWS services (like IAM, VPC, CloudWatch) that frequently interact with the focus service and briefly explain the relationship. |
+| `### Foundational Concepts` | Explain the service in non-technical terms. What problem does it solve? What is its core value proposition for a business? |
+| `### Key Benefits & Value Proposition` | List 3-5 high-level benefits (e.g., cost savings, agility, scalability, global reach). **Crucially**, relate these to the **Six Advantages of Cloud Computing** where possible. |
+| `### Security and Compliance (CLF-C02 Focus)` | Detail the service's role within the **AWS Shared Responsibility Model**. Specify what the **Customer** is responsible for and what **AWS** manages for this specific service. |
+| `### Billing, Pricing, and Support` | Explain the service's primary pricing model (e.g., pay-as-you-go, Reserved Instances, tiered storage). Mention any associated support models (e.g., AWS Support Plans if relevant). |
+| `### Common Use Cases (Scenario-Based)` | List 3-4 simple, business-oriented scenarios/problems where this service is the primary solution. (Example: Storing static website content = S3). |
+| `### Related Core Services` | Mention 2-3 other fundamental AWS services (like IAM, VPC, CloudWatch) that frequently interact with the focus service and briefly explain the relationship. |
 
 **Add the Official AWS documentation at the end of the file**
 
