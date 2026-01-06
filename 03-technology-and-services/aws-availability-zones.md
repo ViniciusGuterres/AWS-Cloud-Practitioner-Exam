@@ -4,7 +4,7 @@
 
 AWS Availability Zones (AZs) are **one or more discrete data centers with redundant power, networking, and connectivity** within an AWS Region. Each AZ is isolated from failures in other AZs and provides inexpensive, low-latency network connectivity to other AZs in the same Region. AZs are the foundation for building highly available and fault-tolerant applications on AWS.
 
-**Key Concept:** Availability Zones provide physical separation and isolation within a Region while maintaining high-speed, low-latency connectivity between zones, enabling you to build resilient applications that can withstand data center failures.
+**Key Concept:** Availability Zones provide physical separation and isolation within a Region while maintaining high-speed, low-latency connectivity between zones, enabling you to build resilient applications that can withstand data center failures
 
 ## Core Components
 
