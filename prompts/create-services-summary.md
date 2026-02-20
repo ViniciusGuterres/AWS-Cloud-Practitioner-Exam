@@ -1,33 +1,51 @@
-**Persona:** You are an expert AWS Instructor and architecture. Your specialty is creating clear, concise, and accurate study materials specifically tailored for the **AWS Certified Cloud Practitioner (CLF-C02)** exam.
+**PERSONA:** Senior AWS Authorized Instructor & CLF-C02 Exam Strategist.
 
-**Primary Goal:** Generate a comprehensive, well-structured markdown (`.md`) file detailing the **AWS <AWS SERVICE HERE>** service.
+**PRIMARY GOAL:** Generate a high-retention Study Guide for **AWS <AWS SERVICE HERE>** specifically for the CLF-C02 exam.
 
-**Target Audience:** The content must be **strongly and exclusively tailored** for someone studying for the **AWS Certified Cloud Practitioner (CLF-C02)** exam. This means the content must:
-
-* **Focus on Foundational Knowledge:** Only cover concepts relevant to the CLF-C02 domains (Cloud Concepts, Security & Compliance, Technology & Services, Billing, Pricing, & Support).
-* **Maintain a High-Level View:** Concentrate on **"what"** the service is, **"why"** a customer would use it (benefits/value proposition), and **"how"** it fits into common, simple use cases, not deep technical **"how-to"** or implementation details.
-* **Emphasize CLF-C02 Context:** Clearly explain the service's role regarding **Security, Billing/Pricing, and High Availability/Scalability** (the key concepts of the exam).
-
-**Simple Analogy:**: Add a simple analogy for the service. e.g AWS Macie: Think of Macie as a security guard with a trained detection dog that continuously patrols your data warehouse (S3), sniffing out sensitive documents (PII, financial data) and alerting you if they're left in unsecured areas or if someone suspicious is trying to access them.
-
-**Constraint (Handle This First):**
-The user wants the structure of this file to match other files in their `03-technology-and-services` folder.
-
-**Required Content (CLF-C02 Focused Structure):**
-Organize the file with the following markdown headings and content, ensuring all sections adhere to the Target Audience guidelines above:
-
-| Heading | CLF-C02 Specific Content Focus |
-| :--- | :--- |
-| `## Service Overview:` A simple, single-sentence definition of the service's purpose. |
-| `### Foundational Concepts` | Explain the service in non-technical terms. What problem does it solve? What is its core value proposition for a business? |
-| `### Key Benefits & Value Proposition` | List 3-5 high-level benefits (e.g., cost savings, agility, scalability, global reach). **Crucially**, relate these to the **Six Advantages of Cloud Computing** where possible. |
-| `### Security and Compliance (CLF-C02 Focus)` | Detail the service's role within the **AWS Shared Responsibility Model**. Specify what the **Customer** is responsible for and what **AWS** manages for this specific service. |
-| `### Billing, Pricing, and Support` | Explain the service's primary pricing model (e.g., pay-as-you-go, Reserved Instances, tiered storage). Mention any associated support models (e.g., AWS Support Plans if relevant). |
-| `### Common Use Cases (Scenario-Based)` | List 3-4 simple, business-oriented scenarios/problems where this service is the primary solution. (Example: Storing static website content = S3). |
-| `### Related Core Services` | Mention 2-3 other fundamental AWS services (like IAM, VPC, CloudWatch) that frequently interact with the focus service and briefly explain the relationship. |
-
-**Add the Official AWS documentation at the end of the file**
+**STRATEGIC CONSTRAINTS (MANDATORY):**
+1. **No Implementation Details:** Skip CLI, SDK, or deep console steps. Focus on Value Prop.
+2. **Shared Responsibility Model:** Explicitly define the "Line in the Sand" for this service.
+3. **Well-Architected Alignment:** Map the service to at least one of the 6 Pillars (Cost, Security, Reliability, Performance, Operational Excellence, Sustainability).
+4. **Comparison Hook:** If this service is often confused with another (e.g., RDS vs. DynamoDB), include a "Don't confuse with..." note.
 
 ---
 
-**Final Output:** Deliver the complete, single `.md` file with all content filled in.
+**REQUIRED STRUCTURE:**
+
+# AWS <SERVICE NAME> - CLF-C02 Study Notes
+
+## 💡 Simple Analogy
+[Insert a non-technical, sticky analogy here. Focus on real-world objects.]
+
+## 🔍 Service Overview
+- **One-Sentence Pitch:** [Concise definition]
+- **The "Why":** What business problem does this solve for a non-technical stakeholder?
+
+## 🚀 Key Benefits (The 6 Advantages Link)
+*Relate these to: Variable Expense, Massive Economies of Scale, Stop Guessing Capacity, Increase Speed/Agility, Stop Spending Money on Data Centers, Go Global in Minutes.*
+- [Benefit 1]
+- [Benefit 2]
+- [Benefit 3]
+
+## 🛡️ Security & Shared Responsibility
+
+- **AWS is responsible for:** [e.g., Infrastructure, Hardware, Virtualization]
+- **The Customer is responsible for:** [e.g., Data, IAM, Config, Encryption]
+
+## 💰 Billing & Pricing Models
+- **Primary Model:** [e.g., On-demand, Per-hour, Provisioned Throughput]
+- **Cost Drivers:** What makes the bill go up? (e.g., Data transfer out, Storage volume)
+
+## 🏗️ Well-Architected Framework Mapping
+- **Primary Pillar:** [e.g., Reliability]
+- **Reasoning:** How does this service help achieve that pillar's goals?
+
+## 🎯 Exam Scenarios ("Which service should you use if...")
+- **Scenario A:** [Simple business requirement] -> [Solution]
+- **Scenario B:** [Simple business requirement] -> [Solution]
+
+## ⚠️ Comparison Note (Avoid the Trap)
+- **Service X vs. Service Y:** [Briefly explain the differentiator for the exam].
+
+---
+**Official Documentation:** [Link]
