@@ -1,5 +1,5 @@
 # 🚀 AWS CLF-C02: ADAPTIVE STUDY MANIFEST
-**Last Sync:** [Start Date] | **Total Exams Taken:** 0
+**Last Sync:** [Insert Date] | **Total Exams Taken:** 0
 **Target Exam Date:** [Insert Date]
 
 ---
@@ -15,19 +15,24 @@
 
 ---
 
-## ⚠️ WEAKNESSES TO REVIEW (High Priority)
-*Kiro: Populate this section with specific services or concepts the user fails in practice exams.*
-- [Empty] - Waiting for first exam data.
+## ⚠️ WEAKNESSES TO REVIEW (Reset to 0)
+*Topics missed in recent exams. Must answer correctly to start a streak.*
+- [Empty]
+
+---
+
+## 🔄 ACTIVE TRACKING (Building Mastery)
+*Topics answered correctly but not yet mastered. Need Streak 3/3.*
+- [Empty]
 
 ---
 
 ## ✅ VERIFIED STRENGTHS (Mastered)
-*Kiro: Move topics here if the user consistently answers them correctly across multiple exams.*
-- [Empty] - Waiting for first exam data.
+*Achieved [Streak: 3/3]. Keep sharp with occasional review.*
+- [Empty]
 
 ---
 
 ## 📝 EXAM LOG
 | Exam # | Date | Score | Main Gap Identified |
 | :--- | :--- | :--- | :--- |
-| 00 | N/A | 0% | Baseline Setup |
