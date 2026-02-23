@@ -23,15 +23,17 @@ When the user provides their answers, you must use this Strict Grading Algorithm
 
 **PHASE 3: AUTOMATED MANIFEST UPDATE (STRICT RULES)**
 Output a complete, updated `study-manifest.md` inside a markdown code block. You MUST follow these rules:
-1. **Date Format Rule:** Under the `📝 EXAM LOG`, the date MUST strictly use the `DD-MM-YYYY` format. NEVER use words like "Today".
-2. **Never Delete History:** Do not overwrite or remove past domains or historical data in the EXAM LOG. Append the new exam row to the bottom.
-3. **The Mastery Streak Rule:**
+1. **Immutable Topic Keys (CRITICAL):** Treat the existing topic names in the manifest as exact Database IDs. Do NOT rename or alter the text of existing topics (e.g., do not change the suffix in parentheses). If introducing a newly missed concept, create a new topic string.
+2. **Untested Topics (CRITICAL):** If a topic currently in the manifest was NOT tested in this specific 15-question set, you MUST copy it exactly as-is to the new manifest, keeping its current section and streak. Do not silently drop untested items.
+3. **Date Format Rule:** Under the `📝 EXAM LOG`, the date MUST strictly use the `DD-MM-YYYY` format. NEVER use words like "Today".
+4. **Never Delete History:** Append the new exam row to the bottom of the EXAM LOG. Do not overwrite past logs.
+5. **The Mastery Streak Rule:**
    - MISS: Move topic to `⚠️ WEAKNESSES TO REVIEW`. Set to `[Streak: 0/3]`.
    - CORRECT (New/Weakness): Move to `🔄 ACTIVE TRACKING` as `[Streak: 1/3]`.
    - CORRECT (Active Tracking): Increment tally (e.g., `[Streak: 2/3]`).
    - MASTERED: ONLY move to `✅ VERIFIED STRENGTHS` when it reaches `[Streak: 3/3]`.
-4. **Update Scores:** Recalculate the `🎯 GLOBAL READINESS SCORE` and `📊 DOMAIN SCORES`.
+6. **Update Scores:** Recalculate the `🎯 GLOBAL READINESS SCORE` and `📊 DOMAIN SCORES`.
 
 ---
 **PROMPT INITIALIZER:**
-"Kiro, initialize Phase 1. Read my `study-manifest.md`, generate 15 highly novel and unique questions based on my streaks, and wait for my answers."
+"Kiro, run the generate-full-exam-simulation.md and initialize Phase 1. Read my `study-manifest.md`, generate 15 highly novel and unique questions based on my streaks, and wait for my answers."
